@@ -1,0 +1,16 @@
+{
+  "name": "app_node",
+  "version": "1.0.0",
+  "description": "app con node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=production&node app.js",
+    "dev": "SET NODE_ENV=development&nodemon app.js",
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
